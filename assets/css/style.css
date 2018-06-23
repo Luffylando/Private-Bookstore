@@ -1,0 +1,118 @@
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.container-dar{
+  position: absolute;
+  top: -70px;
+  left: 200px;
+  width: 100%;
+
+}
+
+body {
+ background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("bookstore.jpg");
+ color:white;
+ padding-top: 100px;
+  /* background-color: #cccccc;*/
+
+}
+
+.form-group-sort{
+
+  position: absolute;
+  top: 100px;
+  right: 186px;
+}
+
+#no-books{
+
+  position: absolute;
+  margin-top: 360px;
+  margin-left: 575px;
+}
+
+#inline{
+  width: 100%;
+  height: auto;
+  display:flex;
+
+}
+
+#okvir{
+
+  border: double white;
+  background: #444444;
+  width: 350px;
+  height: 180px;
+  padding: 20px;
+}
+
+#eb{
+
+  margin-right: 5px;
+}
+
+#cj{
+
+
+  position:relative;
+  top: 20px;
+  right: -170px;
+  background: #444444;
+}
+
+#bs{
+
+  border: double white;
+  border-width: 3px;
+  background: #444444;
+  height: 410px;
+  padding: 40px;
+}
+
+#uj{
+  
+  top: 20px;
+  right: -170px;
+  background: #444444;
+  
+}
+
+footer{
+
+  color:white;
+}
+
+#log{
+
+  color:white;
+}
+
+hr{
+  background-color: white;
+}
